@@ -2,4 +2,10 @@ nav li {
   display: inline-block;
 }
 
+main ul li {
+  display: inline-block;
+  margin: 0 0 0 8em;
+  text-align: center;
+}
+
 /*# sourceMappingURL=index.css.map */
