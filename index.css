@@ -1,5 +1,18 @@
+nav ul {
+  background-color: blue;
+  height: 3em;
+  padding: 1em 0 1em 0;
+}
 nav li {
+  margin-left: 2em;
+  padding: 1em 0 0 0;
+  height: 2em;
+  background-color: black;
   display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: yellow;
 }
 
 main ul li {
