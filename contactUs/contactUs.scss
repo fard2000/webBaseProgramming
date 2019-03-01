@@ -1,0 +1,53 @@
+body
+{
+  background-color:rgb(164,219,174)
+}
+nav
+{
+  ul
+  {
+    background-color:rgb(87, 214, 212);
+    height:3em;
+    padding:1em 0 1em 0;
+  }
+  li
+  {
+    text-align:center;
+    margin-left: 2em;
+    padding:1em 0 0 0;
+    height:2em;
+    width:8em;
+    background-color:rgb(34, 112, 110);
+    display:inline-block;
+    a
+    {
+      text-decoration:none;
+      color:yellow;
+    }
+  }
+}
+h1
+{
+  background-color:rgb(126, 196, 94);
+  width:10em;
+  height:2em;
+}
+form
+{
+  background-color:rgb(126, 196, 94);
+  width:30em;
+  height:20em;
+  textarea
+  {
+    width:23em;
+  }
+  label[for="discription"]
+  {
+    vertical-align: top;
+  }
+  label
+  {
+    background-color:red;
+    width:10;
+  }
+}
