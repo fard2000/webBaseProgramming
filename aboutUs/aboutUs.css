@@ -1,0 +1,45 @@
+body {
+  background-color: #a4dbae;
+}
+
+nav ul {
+  background-color: #57d6d4;
+  height: 3em;
+  padding: 1em 0 1em 0;
+}
+nav li {
+  text-align: center;
+  margin-left: 2em;
+  padding: 1em 0 0 0;
+  height: 2em;
+  width: 8em;
+  background-color: #22706e;
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+h1 {
+  background-color: #7ec45e;
+  width: 10em;
+  height: 2em;
+}
+
+form {
+  background-color: #7ec45e;
+  width: 25em;
+  height: 10em;
+}
+main{
+  width:40em;
+  height:10em;
+  background-color:rgb(102, 143, 209);
+}
+p{
+  width:40em;
+  height:1em;
+  background-color:rgb(102, 143, 209);
+}
+/*# sourceMappingURL=login.css.map */
