@@ -1,0 +1,24 @@
+body {
+  background-color: #a4dbae;
+}
+
+nav ul {
+  background-color: #57d6d4;
+  height: 3em;
+  padding: 1em 0 1em 0;
+}
+nav li {
+  text-align: center;
+  margin-left: 2em;
+  padding: 1em 0 0 0;
+  height: 2em;
+  width: 8em;
+  background-color: #22706e;
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+/*# sourceMappingURL=main.css.map */
