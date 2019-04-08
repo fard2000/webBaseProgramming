@@ -1,9 +1,15 @@
 body
 {
   background-color:rgb(164,219,174)
+
 }
 nav
 {
+  #register
+  {
+    float:right;
+    margin-right:2em;
+  }
   ul
   {
     background-color:rgb(87, 214, 212);
@@ -21,8 +27,18 @@ nav
     display:inline-block;
     a
     {
+      padding:1em 2em;
       text-decoration:none;
       color:yellow;
     }
   }
+}
+
+
+footer
+{
+  padding-top:2em;
+  padding-bottom:2em;
+  text-align:center;
+  background-color:rgb(87, 214, 212)
 }

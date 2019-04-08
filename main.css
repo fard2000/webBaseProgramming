@@ -2,6 +2,10 @@ body {
   background-color: #a4dbae;
 }
 
+nav #register {
+  float: right;
+  margin-right: 2em;
+}
 nav ul {
   background-color: #57d6d4;
   height: 3em;
@@ -17,8 +21,16 @@ nav li {
   display: inline-block;
 }
 nav li a {
+  padding: 1em 2em;
   text-decoration: none;
   color: yellow;
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  background-color: #57d6d4;
 }
 
 /*# sourceMappingURL=main.css.map */
