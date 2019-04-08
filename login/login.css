@@ -22,15 +22,23 @@ nav li a {
 }
 
 h1 {
-  background-color: #7ec45e;
-  width: 10em;
+  text-align: center;
+  margin: auto;
+  background-color: #55db6d;
+  width: 12.5em;
   height: 2em;
 }
 
 form {
-  background-color: #7ec45e;
+  text-align: center;
+  margin: auto;
+  background-color: #55db6d;
   width: 25em;
-  height: 10em;
+  height: 12em;
+}
+
+main {
+  margin-top: 7em;
 }
 
 /*# sourceMappingURL=login.css.map */
