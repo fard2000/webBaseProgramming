@@ -23,10 +23,12 @@
 
     <main>
           <h1> book register form</h1>
-          <form method="get" actoin="">
+          <form method="post" actoin="" enctype="multipart/form-data">
             <label for="bookName">bookName</label><input type="text" id="bookName" name="bookName"><br><br>
             <label for="price">price</label><input type="text" id="price" name="price"><br><br>
-            <label for="detail">discription</label><textarea id ="detail" name="detail" rows="8" cols="40"></textarea><br><br>            <input type="submit" value="confirm">
+            <label for="detail">discription</label><textarea id ="detail" name="detail" rows="8" cols="40"></textarea><br><br>
+            <label for="pic">book pictures&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="file" id="pic" name="pic"><br><br>
+            <input type="submit" value="confirm">
           </form>
     </main>
 

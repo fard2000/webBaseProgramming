@@ -26,26 +26,18 @@ nav
     }
   }
 }
-
-
 main
 {
-  margin-top:7em;
-  h1
+  section
   {
-    text-align:center;
+    width:30em;
+    font-size:2em;
     margin:auto;
-    background-color:rgb(85, 219, 109);
-    width:12.5em;
-    height:2em;
-  }
-  form
-  {
     text-align:center;
-    margin:auto;
-    background-color:rgb(85, 219, 109);
-    width:25em;
-    height:20em;
-
+    p
+    {
+      text-align:left;
+      margin-left:10em;
+    }
   }
 }

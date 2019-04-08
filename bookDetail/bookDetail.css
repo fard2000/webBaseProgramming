@@ -21,22 +21,15 @@ nav li a {
   color: yellow;
 }
 
-main {
-  margin-top: 7em;
-}
-main h1 {
-  text-align: center;
+main section {
+  width: 30em;
+  font-size: 2em;
   margin: auto;
-  background-color: #55db6d;
-  width: 12.5em;
-  height: 2em;
-}
-main form {
   text-align: center;
-  margin: auto;
-  background-color: #55db6d;
-  width: 25em;
-  height: 20em;
+}
+main section p {
+  text-align: left;
+  margin-left: 10em;
 }
 
-/*# sourceMappingURL=bookRegister.css.map */
+/*# sourceMappingURL=bookDetail.css.map */
