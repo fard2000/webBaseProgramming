@@ -1,0 +1,12 @@
+@import url("../main.css");
+
+main ul li {
+  display: inline-block;
+  margin: 0 0 0 8em;
+  text-align: center;
+}
+#bookID{
+    display:none;
+}
+
+/*# sourceMappingURL=index.css.map */

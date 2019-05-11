@@ -1,24 +1,31 @@
 <!doctype html>
+
 <html>
-<?php
 
-  $usrname=$_POST['userName'];
-  $pass=$_POST['password'];
-  $phone=$_POST['phone'];
-  $email=$_POST['email'];
+  <head>
+    <link rel="stylesheet" href="register.css"/>
 
+    <title>bookStore | login</title>
+  </head>
 
-
-  $db=mysqli_connect('sql208.vcn.ir','vcnus_23421328','7q2503r8','vcnus_23421328_bookSite');
-  $q="insert into users(username,pass,phone,email) value('$usrname','$pass','$phone','$email')";
-  mysqli_query($db,$q) or die("salam");
-  mysqli_close($db);
+  <body>
+    <?php include('../templates/header.html');?>
 
 
+    <main>
+          <h1> register form</h1>
+          <form method="post" action="process.php">
+            <label for="user">username</label><input type="text" id="user" name="userName"><br><br>
+            <label for="pass">password</label><input type="password" id="pass" name="password"><br><br>
+            <label for="phone">phone</label><input type="text" id="phone" name="phone"><br><br>
+            <label for="email">email</label><input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="confirm">
+            <br><br>
+          </form>
+    </main>
 
-  echo("ok");
-?>
-<body>
-  click <a href="register.html"> here </a> to go back
-</body>
+    <?php include('../templates/footer.html');?>
+  </body>
+
+
 </html>

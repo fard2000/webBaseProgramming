@@ -9,5 +9,8 @@ main section p {
   text-align: left;
   margin-left: 10em;
 }
+#bookID{
+    display:none;
+}
 
 /*# sourceMappingURL=bookDetail.css.map */
